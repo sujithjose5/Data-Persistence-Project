@@ -257,7 +257,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 233977287}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1549665328}
+        m_TargetAssemblyTypeName: MenuUIHandler, Assembly-CSharp
+        m_MethodName: StartNew
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &233977287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1248,6 +1260,7 @@ GameObject:
   - component: {fileID: 1549665326}
   - component: {fileID: 1549665325}
   - component: {fileID: 1549665324}
+  - component: {fileID: 1549665328}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1339,6 +1352,18 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1549665328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549665323}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbfa0cc32889f451e81ed4bd22a57676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1676190295
 GameObject:
   m_ObjectHideFlags: 0

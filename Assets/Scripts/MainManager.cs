@@ -83,10 +83,9 @@ public class MainManager : MonoBehaviour
             MenuManager.Instance.highScoreName = MenuManager.Instance.playerName;
             MenuManager.Instance.SaveHighScore(MenuManager.Instance.playerName, m_Points);
 
-            // call updateBestScoreText()???
         }
     }
-
+    // Method to update Best Score in the game scene
     public void updateBestScoreText()
     { 
 

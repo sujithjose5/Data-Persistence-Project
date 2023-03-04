@@ -31,6 +31,7 @@ public class MenuManager : MonoBehaviour
 
     }
 
+    // Method to save highscore in json file
     public void SaveHighScore(string currentPlayer, int currentScore)
     {
         SaveData data = new SaveData();
@@ -41,6 +42,7 @@ public class MenuManager : MonoBehaviour
         File.WriteAllText(Application.persistentDataPath + "/savefile.json", json);
     }
 
+    // Method to load highscore from json file
     public void LoadHighScore()
     {
         string path = Application.persistentDataPath + "/savefile.json";

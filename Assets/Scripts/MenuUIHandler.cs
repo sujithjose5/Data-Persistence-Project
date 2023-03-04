@@ -21,4 +21,12 @@ public class MenuUIHandler : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    // Method to call when Name is entered in the field
+    public void NewPlayerSelected(string name)
+    {
+        // Save name in MenuManager so that it can be accessed from main scene
+        MenuManager.Instance.playerName = name;
+        Debug.Log("NewPlayerAssigned with name" + name);
+    }
 }
